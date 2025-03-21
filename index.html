@@ -7,18 +7,25 @@
   <title>Rent & Ride - Venda e aluguel de carros</title>
   <meta name="description" content="Você encontra as melhores opções para comprar ou alugar carros com total segurança, transparência e praticidade. Trabalhamos com veículos de diversas marcas, modelos e categorias, desde os mais econômicos até os mais luxuosos, para atender todas as suas necessidades.">
 
-
+  <link rel="stylesheet" href="./css/global/header.css">
   <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="header-bg">
-    <div class="header">
+    <div class="header container">
       <a href="./">
         <img src="./img/Rent & Ride.svg" alt="Rent & Ride">
       </a>
       <nav aria-label="primaria">
-        <ul class="header-menu">
+        <ul class="header-menu font-1-m cor-0">
           <li><a href="./carros.html">Carros</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
@@ -29,11 +36,11 @@
 
 
   <main class="introducao-bg">
-    <div class="introducao">
+    <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1>Sua Melhor Escolha em Compra e Aluguel de Veículos<span>.</span></h1>
-        <p>Seja para uma viagem, um compromisso de última hora ou realizar o sonho do carro próprio, a Rent & Ride tem a solução ideal para você.</p>
-        <a href="./carros.html">Escolha o seu</a>
+        <h1 class="font-1-xxl cor-0">Sua Melhor Escolha em Compra e Aluguel de Veículos<span class="cor-p1">.</span></h1>
+        <p class="font-2-1 cor-5">Seja para uma viagem, um compromisso de última hora ou realizar o sonho do carro próprio, a Rent & Ride tem a solução ideal para você.</p>
+        <a class="botao" href="./carros.html">Escolha o seu</a>
       </div>
       <div class="introducao-imagem">
         <img src="./img/carros/pexels1.jpg" alt="Carro azul.">
@@ -41,7 +48,59 @@
     </div>
   </main>
 
-  <h2></h2>
+  <article class="carros-lista">
+    <h2 class="container font-1-xxl">escolha o seu<span class="cor-p1">.</span></h2>
+
+    <ul>
+      <li>
+        <a href="./carros/rangerover.html">
+          <img src="./img/carros/pexels2.jpg" alt="Carro branco">
+          <h3 class="font-1-xl">Range Rover</h3>
+          <span class="font-2-m cor-8">R$ 471.950</span>
+        </a>
+      </li>
+      <li>
+        <a href="./carros/alfaromeo.html">
+          <img src="./img/carros/pexels3.jpg" alt="Carro vermelho">
+          <h3 class="font-1-xl">Alfa Romeo</h3>
+          <span class="font-2-m cor-8">R$ 1,2 milhão</span>
+        </a>
+      </li>
+      <li>
+        <a href="./carros/mercedes.html">
+          <img src="./img/carros/pexels4.jpg" alt="Carro azul">
+          <h3 class="font-1-xl">Mercedes</h3>
+          <span class="font-2-m cor-8">R$ 350.000</span>
+        </a>
+      </li>
+    </ul>
+  </article>
+
+  <article class="tecnologia-bg">
+    <div class="tecnologia container">
+      <div class="tecnologia-conteudo"></div>
+      <span class="font-2-l-b cor-5">Tecnologia dos nossos carros</span>
+      <h2 class="font-1-xxl cor-0">Na Rent & Ride, prezamos por oferecer veículos modernos e equipados com o que há de mais avançado em tecnologia automotiva<span class="cor-p1">.</span></h2>
+      <p class="font-2-l cor-5">Você merece dirigir com o máximo de conforto, segurança e tecnologia.</p>
+      <a class="link" href="./carros.html">Escolha um modelo</a>
+      <div class="tecnologia-vantagens">
+        <div>
+          <img src="./img/icones/eletrica.svg" alt="">
+          <h3 class="font-1-m cor-0">Segurança</h3>
+          <p class="font-2-s cor-5">Airbags, freios ABS, controle de estabilidade e assistente de partida em rampas.</p>
+        </div>
+        <img src="./img/icones/rastreador.svg" alt="">
+        <h3 class="font-1-m cor-0">Eficiência</h3>
+        <p class="font-2-s cor-5">Motores econômicos e versões híbridas para menor consumo de combustível.</p>
+      </div>
+    </div>
+    <div class="tecnologia-imagem">
+      <img src="./img/fotos/tecnologia.jpg" alt="">
+    </div>
+    </div>
+    </div>
+
+  </article>
 </body>
 
 </html>
