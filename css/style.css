@@ -3,6 +3,7 @@
 @import "./utilidades/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
@@ -15,6 +16,10 @@
 
 /* Carros */
 @import "./carros/carros-lista.css";
+@import "./carros/carroslista.css";
 
 /* Seguros */
 @import "./seguros/seguros.css";
+
+/* termos */
+@import "./termos/termos.css";
