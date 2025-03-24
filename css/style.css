@@ -23,5 +23,8 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
+/* Carros */
+@import "./carro/carro.css";
+
 /* termos */
 @import "./termos/termos.css";
