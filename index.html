@@ -7,7 +7,7 @@
   <title>Rent & Ride - Venda e aluguel de carros</title>
   <meta name="description" content="Você encontra as melhores opções para comprar ou alugar carros com total segurança, transparência e praticidade. Trabalhamos com veículos de diversas marcas, modelos e categorias, desde os mais econômicos até os mais luxuosos, para atender todas as suas necessidades.">
 
-  <link rel="stylesheet" href="./css/global/header.css">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,9 +41,10 @@
         <p class="font-2-1 cor-5">Seja para uma viagem, um compromisso de última hora ou realizar o sonho do carro próprio, a Rent & Ride tem a solução ideal para você.</p>
         <a class="botao" href="./carros.html">Escolha o seu</a>
       </div>
-      <div class="introducao-imagem">
-        <img src="./img/carros/pexels1.jpg" alt="Carro azul.">
-      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./img/carros/pexels1.jpg">
+        <img src="./img/carros/pexels1.jpg" width="1280" height="1600" alt="Carro azul.">
+      </picture>
     </div>
   </main>
 
@@ -78,13 +79,15 @@
       <a class="link" href="./carros.html">Escolha um modelo</a>
       <div class="tecnologia-vantagens">
         <div>
-          <img src="./img/icones/eletrica.svg" alt="">
+          <img src="./img/icones/eletrica.svg" width="24" height="24" alt="">
           <h3 class="font-1-m cor-0">Segurança</h3>
           <p class="font-2-s cor-5">Airbags, freios ABS, controle de estabilidade e assistente de partida em rampas.</p>
         </div>
-        <img src="./img/icones/rastreador.svg" alt="">
-        <h3 class="font-1-m cor-0">Eficiência</h3>
-        <p class="font-2-s cor-5">Motores econômicos e versões híbridas para menor consumo de combustível.</p>
+
+        <div> <img src="./img/icones/rastreador.svg" width="24" height="24" alt="">
+          <h3 class="font-1-m cor-0">Eficiência</h3>
+          <p class="font-2-s cor-5">Motores econômicos e versões híbridas para menor consumo de combustível.</p>
+        </div>
       </div>
     </div>
     <div class="tecnologia-imagem">
